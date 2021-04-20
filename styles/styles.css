@@ -110,3 +110,27 @@ body {
     border:1px solid #4885ed;
     padding: 9px 19px;
 }
+
+#nav-bottom {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    color:#707070;
+    font-size:15px;
+    height: 40px;
+}
+
+#nav-bottom .left-footer-nav {
+    margin-right: auto;
+    padding-left: 0px;
+} 
+
+#nav-bottom .left-footer-nav li {
+    margin-left: 27px;
+    display: inline;
+}
+
+#nav-bottom .right-footer-nav li {
+    margin-right: 27px;
+    display: inline;
+} 
