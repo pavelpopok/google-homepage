@@ -45,3 +45,68 @@ body {
     padding: 10px 10px;
     font-size: 14px;
 }
+
+#g-search #search-form {
+    margin-top: 149px;
+}
+
+#g-search #search-form #logo{
+    margin: 0 auto 20px;
+}
+
+#g-search {
+    display: flex;
+    justify-content: center;
+}
+
+#search-form #logo{
+    display: flex;
+    justify-content: center;
+}
+
+#g-search  #search-form  #search-container  .search-bar {
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
+    display: flex;
+    height: 37px;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 537px;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-btn a{
+    margin-left: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: -32px;
+}
+
+#search-form .buttons {
+    display: flex;
+    justify-content: center;
+}
+#search-form .buttons button {
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+}
+
+#search-form .buttons button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+}
+
+#search-form .buttons button:focus {
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
