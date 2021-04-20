@@ -1,0 +1,47 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100%;
+}
+
+#nav-gapps {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+}
+
+#nav-gapps .nav-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+#nav-gapps .nav-bar li {
+    display: inline;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 14px;
+}
